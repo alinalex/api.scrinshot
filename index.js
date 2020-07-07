@@ -37,7 +37,7 @@ app.use('/api/screenshot', screenshotRouter);
 // // letsAutomate('blabla', null, 'https://sadada.da');
 // automate('5efde39cf8df3091e62ab180', null, 'https://alinrauta.com');
 
-app.get('/', (req, res) => res.send('api running'));
+app.get('/', (req, res) => res.send('api running and just been modified'));
 
 const PORT = process.env.PORT || 5000;
 
