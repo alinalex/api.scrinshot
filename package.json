@@ -8,7 +8,7 @@
     "server": "nodemon index.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "deploy": "git pull && npm install"
+    "deploy": "git pull && npm install && pm2 restart api"
   },
   "repository": {
     "type": "git",
